@@ -1,0 +1,10 @@
+# micromamba create -n rplot -f rplot.yml
+name: rplot
+channels:
+  - conda-forge
+dependencies:
+  - r-base
+  - r-ggplot2
+  - r-ggprism
+  - r-dplyr
+  - r-readr

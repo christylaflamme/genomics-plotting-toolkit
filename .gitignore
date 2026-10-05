@@ -1,0 +1,18 @@
+# Allow-list: ignore everything, then un-ignore specific files by name.
+# To publish a new file, add it here (after the pre-push scan).
+# Never un-ignore CLAUDE.md, LOCAL_NOTES.md or hyak_transfer.md (personal/internal).
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+
+!/coverage/
+/coverage/*
+!/coverage/GUIDE.md
+!/coverage/mosdepth_bins.sh
+!/coverage/plot_normalized_coverage.R
+
+
+!/envs/
+/envs/*
+!/envs/rplot.yml
